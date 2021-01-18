@@ -3,11 +3,11 @@
 table#tlayout {
     border: none;
     border-collapse: separate;
-    background: #f9f9f9;
+    background: #f1f1f1;
 }
 
 body {
-	background: #f9f9f9;
+	background: #f1f1f1;
 	font-family: Optima;
 	padding-bottom: 8px;
 	margin: 0;
@@ -15,7 +15,7 @@ body {
 
 #layout-menu {
 	background: #f1f1f1;
-	border: 1px solid #dddddd;
+	border: 1px solid #f6f6f6;
 	padding-top: 0.5em;
 	padding-left: 8px;
 	padding-right: 8px;
@@ -28,7 +28,7 @@ body {
 }
 
 #layout-menu td {
-	background: #f9f9f9;
+	background: #f6f6f6;
     vertical-align: top;
 }
 
@@ -37,7 +37,7 @@ body {
 	padding-left: 1.0em;
 	padding-right: 1.0em;
     border: none;
-    background: #f9f9f9;
+    background: #f1f1f1;
     text-align: left;
     vertical-align: top;
 }
@@ -271,7 +271,7 @@ div.infoblock p + p {
 }
 
 div.codeblock > div.blockcontent {
-	background: #f6f6f6;
+	background: #f1f1f1;
 }
 
 span.pycommand {
