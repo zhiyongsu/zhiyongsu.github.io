@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>VCG @ NJUST</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">VCG@NJUST</div>
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+<div class="menu-item"><a href="research.html">Research</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+<div class="menu-item"><a href="service.html">Service</a></div>
+<div class="menu-item"><a href="group.html">Group</a></div>
+<div class="menu-item"><a href="photos.html">Photos</a></div>
+<div class="menu-item"><a href="teaching.html">Teaching</a></div>
+<div class="menu-item"><a href="resources.html">Resources</a></div>
+<div class="menu-category"><p align="left"><a href="https://clustrmaps.com/site/19xil" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=_tdmSO7kBKJxnb4gnSXix5t5visrmUfYYR7m10GYOp4&cl=ffffff" width="100" height="70"></a></p></div>
+</td>
+<td id="layout-content">
+<p><br /></p>
+<h1>No-­reference Point Cloud Geometry Quality Assessment Based on Pairwise Rank Learning</h1>
+<p><b>Zhiyong Su</b>*, Yong Li,  Chao Chu, Long Chen, Weiqing Li <br /></p>
+<h2>Abstract</h2>
+<div class="infoblock">
+<div class="blockcontent">
+<p>Objective geometry quality assessment of point clouds is essential to evaluate the performance of a wide range of point cloud-based solutions, such as denoising, simplification, reconstruction, and watermarking.
+Existing point cloud quality assessment methods dedicate to assigning absolute quality scores to distorted point clouds.
+Their performance is strongly reliant on the quality and quantity of subjective ground-truth scores for training, which are challenging to gather and have been shown to be imprecise, biased, and inconsistent.
+Their performance is strongly reliant on the accuracy, consistency, and quantity of subjective ground-truth scores for training, which are challenging to gather and have been shown to be unreliable. 
+Furthermore, the majority of existing objective geometry quality assessment metrics are mainly carried out by full-reference traditional approaches.
+So far, point-based non-reference geometry quality assessment techniques have not yet been investigated.
+To the best of our knowledge, this paper presents PRL-GQA, the first pairwise learning framework for non-reference geometry quality assessment of point clouds.
+The proposed PRL-GQA framework employs a siamese deep architecture, which takes as input a pair of point clouds and outputs their rank order.
+Each siamese architecture branch is a geometry quality assessment network (GQANet), which is designed to extract multi-scale quality-aware features and output a quality index for the input point cloud.
+Then, based on their quality indexes, a pairwise rank learning module is introduced to rank the relative quality of a pair of degraded point clouds.
+To train the proposed PRL-GQA framework, a new rank dataset named PRLD is constructed, which includes 150 reference point clouds and 15750 pairs of distorted samples.
+In addition, a large-scale quality-annotated dataset containing 5250 geometrically distorted samples with pseudo-MOS is also established for fine-tuning the pre-trained GQANet to predict absolute quality scores.
+Extensive experiments demonstrate the effectiveness of the proposed PRL-GQA framework.
+Furthermore, the results also show that the fine-tuned non-reference GQANet performs competitively when compared to existing full reference geometry quality assessment metrics. 
+The source code and datasets will be publicly available at: href{https:<i></i>zhiyongsu.github.io<i>Project</i>PRLGQA.html}{https:<i></i>zhiyongsu.github.io<i>Project</i>PRLGQA.html}.</p>
+</div></div>
+<h2>Code</h2>
+<div class="infoblock">
+<div class="blockcontent">
+<p>[PDF] [Code] [Datasets]</p>
+</div></div>
+<div id="footer">
+<div id="footer-text">
+Page generated 2022-08-31 17:43:04 CST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
