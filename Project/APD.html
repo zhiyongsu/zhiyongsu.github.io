@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>VCG @ NJUST</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">VCG@NJUST</div>
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+<div class="menu-item"><a href="research.html">Research</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+<div class="menu-item"><a href="group.html">Group</a></div>
+<div class="menu-item"><a href="photos.html">Photos</a></div>
+<div class="menu-item"><a href="teaching.html">Teaching</a></div>
+<div class="menu-item"><a href="resources.html">Resources</a></div>
+<div class="menu-category"><p align="left"><a href="https://clustrmaps.com/site/19xil" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=_tdmSO7kBKJxnb4gnSXix5t5visrmUfYYR7m10GYOp4&cl=ffffff" width="100" height="70"></a></p></div>
+</td>
+<td id="layout-content">
+<p><br /></p>
+<h1>AS-PD: An Arbitrary-Size Downsampling Framework for Point Clouds</h1>
+<p>Peng Zhang, Ruoyin Xie, Jinsheng Sun, Weiqing Li, and <b>Zhiyong Su</b>* <br /></p>
+<h2>Abstract</h2>
+<div class="infoblock">
+<div class="blockcontent">
+<p>Point cloud downsampling is a crucial pre- processing operation to downsample points in order to unify data size and reduce computational cost, to name a few. Recent research on point cloud downsampling has achieved great success which concentrates on learning to sample in a task-aware way. However, existing learnable samplers can not directly perform arbitrary-size downsampling, and assume the input size is fixed. In this paper, we introduce the AS-PD, a novel task-aware sampling framework that directly downsamples point clouds to any smaller size based on a sample-to-refine strategy. Given an input point cloud of arbitrary size, we first perform a task-agnostic pre- sampling on the input point cloud to a specified sample size. Then, we obtain the sampled set by refining the pre-sampled set to make it task-aware, driven by downstream task losses. The refinement is realized by adding each pre-sampled point with a small offset predicted by point-wise multi-layer perceptrons (MLPs). With the density encoding and proper training scheme, the framework can learn to adaptively downsample point clouds of different input sizes to arbitrary sample sizes. We evaluate sampled results for classification and registration tasks, respectively. The proposed AS-PD surpasses the state-of-the-art method in terms of down- stream performance. Further experiments also show that our AS-PD exhibits better generality to unseen task models, implying that the proposed sampler is optimized to the task rather than a specified task model.</p>
+</div></div>
+<h2>Resource</h2>
+<div class="infoblock">
+<div class="blockcontent">
+<p><a href="https://arxiv.org/abs/2211.01110">[arXiv]</a> <a href="https://github.com/Pengz98/AU-PD">[Code]</a> </p>
+</div></div>
+<div id="footer">
+<div id="footer-text">
+Page generated 2023-01-10 10:13:46 CST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
